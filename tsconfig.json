@@ -1,0 +1,13 @@
+{
+  "files": ["src/main.ts"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "declaration": true,
+    "declarationDir": "./dist/"
+  }
+}

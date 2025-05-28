@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "main": "dist/main.js",
+  "author": "vishota",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/main.js",
+      "import": "./dist/main.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "private": false
+}
