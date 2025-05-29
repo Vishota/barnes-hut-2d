@@ -1,7 +1,8 @@
 {
-  "files": ["src/main.ts"],
+  "files": ["src/QuadTree.ts"],
   "compilerOptions": {
     "target": "es6",
+    "lib": ["es2017"],
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
